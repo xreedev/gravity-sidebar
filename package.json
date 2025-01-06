@@ -1,5 +1,5 @@
 {
-  "name": "gravity_sidebar",
+  "name": "gravity-sidebar",
   "version": "1.0.2",
   "description": "A tab, mobile and desktop responsive sidebar ",
   "main": "dist/Sidebar/index.js",
