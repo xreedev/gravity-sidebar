@@ -120,8 +120,7 @@ Below is a complete example of how to integrate the `Sidebar` component into an 
 
 ```jsx
 import React from "react";
-import { Sidebar } from "./Sidebar";
-import "./style.css";
+import { Sidebar } from "gravity-sidebar";
 
 const options = [
   { name: "Home", icon: "fa fa-home" },
