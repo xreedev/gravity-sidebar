@@ -2,10 +2,10 @@
   "name": "gravity_sidebar",
   "version": "1.0.4",
   "description": "A tab, mobile and desktop responsive sidebar ",
-  "main": "dist/Sidebar/index.js",
+  "main": "src/Sidebar/index.js", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir dist --copy-files"
+    "postinstall": "echo 'No build or modifications needed'"
   },
   "author": "Sreedev TS",
   "license": "MIT",
