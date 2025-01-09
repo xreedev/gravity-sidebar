@@ -17,7 +17,7 @@ fs.mkdirSync(`${folderPath}`);
 }
 
 // Create the file inside the `src` directory
-fs.copyFileSync(`dist/Sidebar/index.js`, `${folderPath}/index.js`);
-fs.copyFileSync(`dist/Sidebar/style.css`, `${folderPath}/style.css`);
+fs.copyFileSync(`src/Sidebar/index.js`, `${folderPath}/index.js`);
+fs.copyFileSync(`src/Sidebar/style.css`, `${folderPath}/style.css`);
 
 console.log(`File created: ${filePath}`);
